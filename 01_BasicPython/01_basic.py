@@ -1,37 +1,17 @@
-import math 
+# val = int(input("enter a number"))
+# print("val * 5 = " , val*5)
 
-#1. def funName(____):
-def sqr(num):
-    return num**2
+y=2.3
+print(type(y))
 
-# function polymorphism
+x=int(y)
+print(type(x))
 
-def mul(p1, p2):
-    return p1*p2
+a = 7<3
+print(a)
+print(type(a))
 
-# print('a',3)
-# print(3*4)
-# print(5, 'q')
+str = "Programming"
 
-
-# function returning multiple values
-
-def circle_stats(radius):
-    perimeter = 2*math.pi*radius
-    area = math.pi*radius*radius
-
-    return perimeter, area
-
-cirArea, cirPerimeter = circle_stats(3)
-# print("circumference is " , format(cirPerimeter, "0.3f") , "area is " , format(cirArea, "0.6f"))
-
-
-
-# default parameter value
-
-def greet(name = "User"):
-    return "Hello " + name
-
-print(greet("aman"))
-print(greet())
-
+newStr = str[1:5]
+print(newStr)
